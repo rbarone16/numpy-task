@@ -26,6 +26,10 @@ def risolvi_sistema_lineare(A: list, b: list) -> np.ndarray:
 
 def correlazione_matrici(m1: list, m2: list) -> np.ndarray:
     """Sub-task 4: Correlazione tra Matrici 2x2."""
+    m1
+    m2
+    C = np.corrcoef(m1,m2)
+    return(C)
     pass
 
 def operazioni_elemento_per_elemento(v1: list) -> tuple:
