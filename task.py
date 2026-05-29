@@ -11,7 +11,9 @@ def prodotto_scalare(v1: list, v2: list) -> float:
     pass
 
 def rango_matrice(m: list) -> int:
-    """Sub-task 2: Calcola il rango di una matrice."""
+    M = m
+    valore = int(np.linalg.matrix_rank(M))
+    return(valore)
     pass
 
 def risolvi_sistema_lineare(A: list, b: list) -> np.ndarray:
